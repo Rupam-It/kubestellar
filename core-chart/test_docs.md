@@ -23,3 +23,15 @@ Search for ArgoCD
 ```bash
 grep -i argocd rendered.yaml
 ```
+
+then we run 
+```bash
+helm install my-release .
+```
+```bash
+kubectl apply -f rendered.yaml
+```
+```bash
+kubectl get pods -A
+```
+![alt text](image.png)
