@@ -1,4 +1,4 @@
-{{- if and (index .Values "kubeflex-operator" "install") (or .Values.ITSes .Values.WDSes ) }}
+{{- if and (index .Values "kubeflex" "install") (or .Values.ITSes .Values.WDSes ) }}
 apiVersion: batch/v1
 kind: Job
 metadata:

@@ -1,4 +1,4 @@
-{{- if index .Values "kubeflex-operator" "install" }}
+{{- if index .Values "kubeflex" "install" }}
 apiVersion: v1
 kind: Namespace
 metadata:
