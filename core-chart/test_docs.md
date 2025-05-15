@@ -17,7 +17,7 @@ helm template . > rendered.yaml
 Check if key components are properly rendered in the output:
 Search for KubeFlexOperator
 ```bash
-grep -i KubeFlexOperator rendered.yaml
+grep -i Kubeflexoperator rendered.yaml
 ```
 Search for ArgoCD
 ```bash
