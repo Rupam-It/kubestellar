@@ -26,7 +26,7 @@ verbosity:
 
 
 # KubeFlex override values
-kubeflex-operator:
+kubeflexoperator:
   install: true
   # installPostgreSQL: true # automatically install the appropriate version of PostgreSQL required by KubeFlex
   # isOpenShift: false # set this variable to true when installing the chart in an OpenShift cluster
@@ -37,7 +37,7 @@ kubeflex-operator:
 
 
 # Argo CD values
-argo-cd:
+argocd:
   install: false # enable/disaple the installation of Argo CD
   # openshift:
   #   enabled: true
